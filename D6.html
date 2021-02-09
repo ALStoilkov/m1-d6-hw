@@ -22,7 +22,7 @@
 
   <!-- <p>EXTRA (use JS here)</p> -->
 
-  <p>EX7.: Write a function to change the H1 text</p>
+  <!-- <p>EX7.: Write a function to change the H1 text</p>
   <p>EX8.: Write a function to change the page background color</p>
   <p>EX9.: Write a function to change the footer address with a fake one</p>
   <p>EX10.: Write a function to add a CSS class to every Amazon link</p>
@@ -33,86 +33,66 @@
   <p>
     EX12: Write a function to color the price of every product in a different
     one every time
-  </p>
+  </p> -->
 
-  <head></head>
+  <head>
+    <style>
+      img {
+        height: 150px;
+      }
+      td {
+        border: 2px solid black;
+        border-radius: 3px;
+      }
+      table {
+        margin: 30px;
+      }
+      label {
+        margin: 30px 10px;
+      }
+      table p {
+        text-align: center;
+      }
+    </style>
+  </head>
+
   <body>
+    <main>
     <h1>Smartphone Shop</h1>
     <table>
       <tr>
-      <th>Top 5 brands</th>
       <th>Model</th>
+      <th>Description</th>
+      <th>Price</th>
       </tr>
       <tr>
-        <td>Nokia</td>
-        <td><a href="https://www.amazon.co.uk/Nokia-Plus-TA-1103-Octa-core-UNLOCKED/dp/B07FZTXGLN">6.1Plus</a></td>
+        <td><a href="https://www.amazon.co.uk/Nokia-Plus-TA-1103-Octa-core-UNLOCKED/dp/B07FZTXGLN" target="_blank"><img src="https://images.ctfassets.net/wcfotm6rrl7u/66ip7d0mMoO626OkusK6wK/b1e4c2eaa2c6b1b6634511fc904bb3a7/nokia_6_Plus-front_back-White.png?fm=jpg&fl=progressive&bg=rgb:FFFFFF&q=80" alt="Nokia phone image"></a></td>
+        <td><p>The Nokia 6.1 Plus smartphone comes equipped with a 5.8-inch FHD+ display having a resolution of 2280x1080 pixels. The phone with an immersive 19:9 aspect ratio is said to bring one closer to the action.</p></td>
+        <td><p>&pound109.00</p></td>
       </tr>
       <tr>
-        <td>Samsung</td>
-        <td><a href="https://www.amazon.co.uk/Samsung-SIM-Free-Smartphone-Midnight-Renewed-Black/dp/B06ZY5RJVB/ref=sr_1_1?dchild=1&keywords=samsung+s8&qid=1612791295&s=electronics&sr=1-1">S8</a></td>
+        <<td><a href="https://www.amazon.co.uk/Samsung-SIM-Free-Smartphone-Midnight-Renewed-Black/dp/B06ZY5RJVB/ref=sr_1_1?dchild=1&keywords=samsung+s8&qid=1612791295&s=electronics&sr=1-1" target="_blank"><img src="https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s8-.jpg" alt="Samsung phone image"></a></td>
+        <td><p>Galaxy S8 and S8+ changed the design of Galaxy phones with the introduction of the Infinity Display. Explore more about these revolutionary phones.</p></td>
+        <td><p>&pound150.00</p></td>
       </tr>
       <tr>
-        <td>iPhone</td>
-        <td><a href="https://www.amazon.co.uk/Apple-iPhone-64GB-Space-Renewed-Grey/dp/B0797QCXTJ/ref=sr_1_4?dchild=1&keywords=iphone+x&qid=1612791412&s=electronics&sr=1-4">10</a></td>
+        <td><a href="https://www.amazon.co.uk/Apple-iPhone-64GB-Space-Renewed-Grey/dp/B0797QCXTJ/ref=sr_1_4?dchild=1&keywords=iphone+x&qid=1612791412&s=electronics&sr=1-4" target="_blank"><img src="https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-x-new-1.jpg" alt="Samsung phone image"></a></td>
+        <td><p>Compare our best iPhone X pay monthly mobile phone contract deals or on pay as you go & order today! Order by midnight for free next working day delivery.</p></td>
+        <td><p>&pound289.00</p></td>
       </tr>
       <tr>
-        <td>LG</td>
-        <td><a href="https://www.amazon.co.uk/LG-Illusion-unlocked-without-Branding/dp/B08JZL2K13/ref=sr_1_3?crid=WNUH9PTEGWCE&dchild=1&keywords=lg+wing&qid=1612791437&s=electronics&sprefix=lg+wing%2Celectronics%2C180&sr=1-3">Wing</a></td>
+        <td><a href="https://www.amazon.co.uk/LG-Illusion-unlocked-without-Branding/dp/B08JZL2K13/ref=sr_1_3?crid=WNUH9PTEGWCE&dchild=1&keywords=lg+wing&qid=1612791437&s=electronics&sprefix=lg+wing%2Celectronics%2C180&sr=1-3" target="_blank"><img src="https://fdn2.gsmarena.com/vv/pics/lg/lg-wing-0.jpg" alt="LG phone image"></a></td>
+        <td><p>The Wing is nothing short of bold, fresh, and experimental in nature. It's the very definition of trying new things and going beyond absolute practicality. The concept of the Wing feels exciting and stimulating to bitter reviewers like ourselves who are used to seeing one and the same phone form factor over and over again.</p></td>
+        <td><p>&pound669.00</p></td>
       </tr>
       <tr>
-        <td>Motorola</td>
-        <td><a href="https://www.amazon.co.uk/Motorola-display-octa-core-processor-battery/dp/B085J9DBVH/ref=sr_1_3?crid=3QYCTWH4Z02M2&dchild=1&keywords=moto+g8&qid=1612791387&s=electronics&sprefix=moto+g%2Celectronics%2C197&sr=1-3">G8</a></td>
+        <td><a href="https://www.amazon.co.uk/Motorola-zero-notch-display-Qualcomm-Snapdragon/dp/B0846HDY37/ref=sr_1_2?crid=5Z1MFUEODS26&dchild=1&keywords=moto+g8&qid=1612822779&s=electronics&sprefix=moto%2Celectronics%2C176&sr=1-2" target="_blank"><img src="https://fdn2.gsmarena.com/vv/pics/motorola/motorola-moto-g8-1.jpg" alt="Motorola phone image"></a></td>
+        <td><p>Motorola Moto G8 (6,4" HD+ zero-notch display, Qualcomm Snapdragon SD665, 16MP main camera, 2MP macro camera, 4000 mAH battery, Dual SIM, 4/64GB, Android 10, Neon Blue, Neue Blue, a_NA</p></td>
+        <td><p>&pound139.00</p></td>
       </tr>
     </table>
     <div>
-      <h2>Nokia 6.1 Plus</h2>
-      <img src="https://images.ctfassets.net/wcfotm6rrl7u/66ip7d0mMoO626OkusK6wK/b1e4c2eaa2c6b1b6634511fc904bb3a7/nokia_6_Plus-front_back-White.png?fm=jpg&fl=progressive&bg=rgb:FFFFFF&q=80" alt="Nokia phone image" height="300px">
-      <p>
-        The Nokia 6.1 Plus smartphone comes equipped with a 5.8-inch FHD+ display having a resolution of 2280x1080 pixels. The phone with an immersive 19:9 aspect ratio is said to bring one closer to the action.
-      </p>
-      <p>
-        Price: &pound109.00
-      </p>
-    </div>
-    <div>
-      <h2>Samsung S8</h2>
-      <img src="https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s8-.jpg" alt="Samsung phone image" height="300px">
-      <p>
-        Galaxy S8 and S8+ changed the design of Galaxy phones with the introduction of the Infinity Display. Explore more about these revolutionary phones.  </p>
-      <p>
-        Price: &pound150.00
-      </p>
-    </div>
-    <div>
-      <h2>iPhone 10</h2>
-      <img src="https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-x-new-1.jpg" alt="Samsung phone image" height="300px">
-      <p>
-        Compare our best iPhone X pay monthly mobile phone contract deals or on pay as you go & order today! Order by midnight for free next working day delivery.  </p>
-      <p>
-        Price: &pound289.00
-      </p>
-    </div>
-    <div>
-      <h2>LG Wing</h2>
-      <img src="https://fdn2.gsmarena.com/vv/pics/lg/lg-wing-0.jpg" alt="LG phone image" height="300px">
-      <p>
-        The Wing is nothing short of bold, fresh, and experimental in nature. It's the very definition of trying new things and going beyond absolute practicality. The concept of the Wing feels exciting and stimulating to bitter reviewers like ourselves who are used to seeing one and the same phone form factor over and over again.  </p>
-      <p>
-        Price: &pound669.00
-      </p>
-    </div>
-    <div>
-      <h2>Motorola G8</h2>
-      <img src="https://fdn2.gsmarena.com/vv/pics/motorola/motorola-moto-g8-1.jpg" alt="Motorola phone image" height="300px">
-      <p>
-        The Nokia 6.1 Plus smartphone comes equipped with a 5.8-inch FHD+ display having a resolution of 2280x1080 pixels. The phone with an immersive 19:9 aspect ratio is said to bring one closer to the action.
-      </p>
-      <p>
-        Price: &pound139.00
-      </p>
-    </div>
-    <div>
-      <h2>For comments and suggestions</h2>
+      <h3>For comments and suggestions</h3>
       <form>
         <label>Your name:</label><input type="text"><br><br>
         <label>Email:</label><input type="email"><br><br>
@@ -120,16 +100,21 @@
         <input type="submit" value="Submit">
       </form>
     </div>
-    <footer>
+    </main>
+
+    <footer class="bg-blue-100 h-56 flex justify-between px-5">
       <p>My house, London, United Kingdom</p>
       <p>Smartphone Shop &copy; 2021</p>
     </footer>
+
     <script>
       function callH1() {
        const h1Heading = document.getElementsByTagName("h1");
       //  console.log(h1Heading);
-       h1Heading[0].style.color = "blue";
+      h1Heading[0].style.color = "blue";      
+      return `Title changed colour`
       }
+      
       function backgroundColor() {
         const bodyColor = document.getElementsByTagName(`body`);
         bodyColor[0].style.backgroundColor = `beige`;
@@ -146,7 +131,8 @@
         console.log(classToAnchors)
       }
       function toggleCssClass() {
-        
+        const myElement = document.querySelectorAll(`img`)
+        myElement.classList.add(`photo`)
       }
     </script>
   </body>
